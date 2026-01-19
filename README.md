@@ -3,4 +3,8 @@ Practice for creating a simple bare minimum web server through python
 A web server using python's http.server module instead of flask to understand how servers request and send out data
 
 <ins> Version 1.0.1 </ins>
-* Added 
+* Added absolute root directory
+* Content mime type, a way for the code to determine the file type to load
+* Removed some unneeded lines/if statements
+* Change HTML code to include a form
+* Made HTML centered
