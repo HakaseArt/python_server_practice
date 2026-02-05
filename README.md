@@ -10,3 +10,12 @@ A web server using python's http.server module instead of flask to understand ho
 * Change HTML code to include a form
 * Made HTML centered
 * Made changes to get the GET method to work
+
+<ins> Version 1.0.2 </ins>
+* Refactored POST method
+* Added UUID to all inputted data
+* Added a parsing method for data received from client
+* Added JSON handling with client data
+* Added JSON dump to file
+* Added a response after data was entered and received
+* Added error handlings if JSON does not exists
