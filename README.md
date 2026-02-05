@@ -19,3 +19,4 @@ A web server using python's http.server module instead of flask to understand ho
 * Added JSON dump to file
 * Added a response after data was entered and received
 * Added error handlings if JSON does not exists
+* Change HTML to be able to handle data and output dynamically, somewhat
