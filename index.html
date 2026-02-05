@@ -3,11 +3,11 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <h1 style="text-align: center;">Hello!</h1>
-            <form action="app.py" method="POST" style="text-align: center;">
-                <label>Firstname</label>
+            <h1 style="text-align: center;">Hello, {{name}}!</h1>
+            <form action="/" method="POST" style="text-align: center;">
+                <label>Firstname :</label>
                 <input type="text" id="firstname" name="firstname"><br><br>
-                <label>Lastname</label>
+                <label>Lastname :</label>
                 <input type="text" id="lastname" name="lastname"><br><br>
                 <input type="submit" value="Submit">
             </form>
